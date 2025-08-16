@@ -2,3 +2,8 @@
 在700bp的trac700.fa，可以在250-560的任何位置，删除大概60-100bp，然后在删除的位置，插入这段序列GGCTTGTCGACGACGGCGGGCTCCGTCGTCAGGATCAT（38bp）。
 位点250-560，删除起点从 250 往后每 10 bp 取一个（步长 stride=10），删除60-100bp，删除长度 60、65、70、…、100（步进 5），总共有214条序列需要跑primedesign。
 输入文件primedesign_delins_inputs.txt。
+出来的数据在PD_out_min2文件夹里面。文件名20250815_01.47.44_PrimeDesign.csv。
+
+先只保留pam—_disrupted的列。
+
+
