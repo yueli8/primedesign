@@ -1,0 +1,1 @@
+(base) hp@HP-Workstation:~/PrimeDesign-master$ python3 primedesign.py -f primedesign_delins_inputs.txt -pbs 13 -rtt 60  -out PD_out_min2
